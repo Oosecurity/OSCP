@@ -8,6 +8,7 @@ nmap -p 445 -vv --script=smb-vuln-cve2009-3103.nse,smb-vuln-ms06-025.nse,smb-vul
 Privelage Escalation:
 privcheckerlinux.py
 
+
 # CHECK:
 ## Pentest Cheat sheet
 https://github.com/21y4d/nmapAutomator  
@@ -17,3 +18,5 @@ https://scund00r.com/all/oscp/2018/02/25/passing-oscp.html
 
 ## AD cheat sheet
 https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet
+Kerberos
+Mimkiz
