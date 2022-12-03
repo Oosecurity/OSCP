@@ -73,9 +73,10 @@ LinPEAS: [https://github.com/carlospolop/privilege-escalation-awesome-scripts-su
 One thing that I will mention is if you want to practice your Linux privilege escalation, I highly recommend you take a look at Lin.Security vulnerable box created by in.security! The box was designed to help people understand how certain applications and service that are misconfigured can be easily abused by an attacker. This box really helped me improved my privilege escalation skills and techniques on Linux systems.  
 
 Main Link: https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/  
-Backup: https://www.vulnhub.com/entry/linsecurity-1,244/    
-
-privcheckerlinux.py    
+Backup: https://www.vulnhub.com/entry/linsecurity-1,244/ 
+  
+## Sudo Privelage Escalation:
+  https://www.hackingarticles.in/linux-privilege-escalation-using-exploiting-sudo-rights/ 
 
 ## Offline Tools for Password Cracking:  
 Hashcat: https://hashcat.net/hashcat/ Sample Hashes to test with Hashcat: https://hashcat.net/wiki/doku.php?id=example_hashes  
