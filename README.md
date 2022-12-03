@@ -49,7 +49,29 @@ Watson: https://github.com/rasta-mouse/Watson
 Seatbelt: https://github.com/GhostPack/Seatbelt  
 Powerless: https://github.com/M4ximuss/Powerless  
 Powerview: https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon  
-privcheckerlinux.py  
+  
+## Token Manipulation:
+Rotten Potato: https://github.com/breenmachine/RottenPotatoNG  
+Juicy Potato: https://github.com/ohpe/juicy-potato  
+
+
+Linux Privilege Escalation Guides: The only guide I probably ever used to help me understand privilege escalation techniques in Linux systems was from g0tmi1k post. This blog is a must that everyone should have for preparing for the OSCP in my opinion. You can find his guide here: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/  
+
+GTFOBins (I have to thank Ippsec for sharing this with me): Contains a curated list of Unix binaries that that have the ability to be exploited by an attacker to bypass local security restrictions on a Linux system. https://gtfobins.github.io/  
+
+PayloadsAllTheThings Linux Priv Esc Guide: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md  
+## Linux Privilege Escalation Tools:  
+
+LinEnum: A great Linux privilege escalation checker that is still maintained by the guys at rebootuser.com. You can find there tool here: https://github.com/rebootuser/LinEnum  
+Linux Exploit Suggester 2: https://github.com/jondonas/linux-exploit-suggester-2  
+LinPEAS: [https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS]   
+
+One thing that I will mention is if you want to practice your Linux privilege escalation, I highly recommend you take a look at Lin.Security vulnerable box created by in.security! The box was designed to help people understand how certain applications and service that are misconfigured can be easily abused by an attacker. This box really helped me improved my privilege escalation skills and techniques on Linux systems.  
+
+Main Link: https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/  
+Backup: https://www.vulnhub.com/entry/linsecurity-1,244/    
+
+privcheckerlinux.py    
 
 
 # CHECK:
