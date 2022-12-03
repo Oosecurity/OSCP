@@ -73,6 +73,28 @@ Backup: https://www.vulnhub.com/entry/linsecurity-1,244/
 
 privcheckerlinux.py    
 
+## Offline Tools for Password Cracking:  
+Hashcat: https://hashcat.net/hashcat/ Sample Hashes to test with Hashcat: https://hashcat.net/wiki/doku.php?id=example_hashes  
+John the Ripper: https://www.openwall.com/john/  
+Metasploit Unleashed using John the Ripper with Hashdump: https://www.offensive-security.com/metasploit-unleashed/john-ripper/   
+
+## Online Tools for Password Cracking:  
+THC Hydra: https://github.com/vanhauser-thc/thc-hydra  
+Crowbar: https://github.com/galkan/crowbar  
+
+## Wordlist generators:
+Cewl: https://digi.ninja/projects/cewl.php  
+Crunch: https://tools.kali.org/password-attacks/crunch  
+Cupp (In Kali Linux): https://github.com/Mebus/cupp   
+
+Tools to check the hash type:
+
+Hash-Identifier: https://github.com/psypanda/hashID
+
+## Tools to dump for hashes:
+Mimikatz: https://github.com/gentilkiwi/mimikatz  
+Mimipenguin: https://github.com/huntergregal/mimipenguin  
+Pypykatz: https://github.com/skelsec/pypykatz  
 
 # CHECK:
 ## Pentest Cheat sheet
