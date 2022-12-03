@@ -192,7 +192,8 @@ Using PowerShell Empire: https://alpinesecurity.com/blog/empire-a-powershell-pos
 https://github.com/21y4d/nmapAutomator  
 https://sushant747.gitbooks.io/total-oscp-guide/content/port_scanning.html  
 https://johnjhacking.com/blog/the-oscp-preperation-guide-2020/  
-https://scund00r.com/all/oscp/2018/02/25/passing-oscp.html
+https://scund00r.com/all/oscp/2018/02/25/passing-oscp.html  
+https://www.netsecfocus.com/oscp/2021/05/06/The_Journey_to_Try_Harder-_TJnull-s_Preparation_Guide_for_PEN-200_PWK_OSCP_2.0.html#overview  
 
 ## AD cheat sheet
 https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet  
