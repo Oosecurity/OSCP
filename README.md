@@ -99,27 +99,27 @@ Pypykatz: https://github.com/skelsec/pypykatz
 # Spawning Ineractive shell
 Using python  
 
-python -c 'import pty; pty.spawn("/bin/sh")'
+--- python -c 'import pty; pty.spawn("/bin/sh")' ---
 
 Echo
 
-echo 'os.system('/bin/bash')'
+--- echo 'os.system('/bin/bash')'---
 
 sh
 
-/bin/sh -i
+--- /bin/sh -i ---
 
 bash
 
-/bin/bash -i
+--- /bin/bash -i ---
 
 Perl
 
-perl -e 'exec "/bin/sh";'
+--- perl -e 'exec "/bin/sh";' ---
 
 From within VI
 
-:!bash
+--- :!bash ---
 
   
 # Port Redirection and Pivoting
