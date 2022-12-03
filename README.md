@@ -21,6 +21,14 @@ nmap -sV -sT -p445 --script vuln <ip>
 nmap -sV -sT -p445 --script safe <ip>
 nmap -sV -sT -p445 --script "vuln and safe" <ip>
 
+Enumeraction:
+
+Exploit:
+
+File upload:
+python2 -m SimpleHTTPServer ---80 Spins up a webserver in the directory you are located on port 80.
+python3 -m http.server --- 80 Spins up a python version 3.X web server in the directory you are located on port 80.
+
 Privelage Escalation:
 privcheckerlinux.py
 
