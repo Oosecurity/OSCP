@@ -97,27 +97,27 @@ Mimipenguin: https://github.com/huntergregal/mimipenguin
 Pypykatz: https://github.com/skelsec/pypykatz  
   
 # Spawning Ineractive shell
-Using python  
+###Using python  
 
---- python -c 'import pty; pty.spawn("/bin/sh")' ---
+  python -c 'import pty; pty.spawn("/bin/sh")' 
 
-Echo
+###Echo
 
   echo 'os.system('/bin/bash')'
 
-sh
+###sh
 
   /bin/sh -i 
 
-bash
+###bash
 
  /bin/bash -i 
 
-Perl
+###Perl
 
  perl -e 'exec "/bin/sh";' 
 
-From within VI
+###From within VI
 
  :!bash 
 
