@@ -1,3 +1,7 @@
+# ALWAYS
+#Linpeas
+#Winpeas
+
 Allowed TOOLS:  
 BloodHound  
 SharpHound  
