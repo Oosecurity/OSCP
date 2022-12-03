@@ -95,6 +95,37 @@ Hash-Identifier: https://github.com/psypanda/hashID
 Mimikatz: https://github.com/gentilkiwi/mimikatz  
 Mimipenguin: https://github.com/huntergregal/mimipenguin  
 Pypykatz: https://github.com/skelsec/pypykatz  
+  
+  
+# Port Redirection and Pivoting
+
+Depending on your scope, some of the machines may not be directly accessible. There are systems out there that are dual homed, which allow you to connect into an internal network. You will need to know some of these techniques in order to obtain access into there non-public networks:
+
+Abatchy’s Port Forwarding Guide: https://www.abatchy.com/2017/01/port-forwarding-practical-hands-on-guide  
+Windows Port Forwarding: http://woshub.com/port-forwarding-in-windows/  
+SSH Tunnelling Explained: https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/  
+Understanding Proxy Tunnels: https://www.offensive-security.com/metasploit-unleashed/proxytunnels/  
+Understanding Port forwarding with Metasploit: https://www.offensive-security.com/metasploit-unleashed/portfwd/  
+Explore Hidden Networks with Double Pivoting: https://pentest.blog/explore-hidden-networks-with-double-pivoting/  
+0xdf hacks stuff. Pivoting and Tunnelling: https://0xdf.gitlab.io/2019/01/28/pwk-notes-tunneling-update1.html  
+
+## Tools to help you with Port Forwarding and Pivoting:
+Proxychains: https://github.com/haad/proxychains  
+Proxychains-ng: https://github.com/rofl0r/proxychains-ng  
+SSHuttle (Totally Recommend learning this): https://github.com/sshuttle/sshuttle  
+SSHuttle Documentation: https://sshuttle.readthedocs.io/en/stable/  
+Chisel https://github.com/jpillora/chisel  
+Ligolo: https://github.com/sysdream/ligolo  
+
+## Online Tunnelling Services:
+
+Ngrok: https://ngrok.com/  
+Twilo: https://www.twilio.com/  
+
+## Vulnerable systems to practice pivoting:
+
+Wintermute: https://www.vulnhub.com/entry/wintermute-1,239/
+
 
 # CHECK:
 ## Pentest Cheat sheet
