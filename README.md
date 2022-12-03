@@ -36,7 +36,7 @@ Fuzzysecurity Windows Privilege Escalation Fundamentals: Shout out to fuzzysec f
 Pwnwiki Windows Privilege Escalation Commands: http://pwnwiki.io/#!privesc/windows/index.md    
 Absolomb’s Security Blog: Windows Privilege Escalation Guide https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/    
 Pentest.blog: Windows Privilege Escalation Methods for Pentesters https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/    
-PayloadAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md
+PayloadAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md  
 SharpAllTheThings: https://github.com/N7WEra/SharpAllTheThings  
 LOLBAS (Created by Oddvar Moe): https://lolbas-project.github.io/  
 
