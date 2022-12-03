@@ -125,6 +125,66 @@ Twilo: https://www.twilio.com/
 ## Vulnerable systems to practice pivoting:
 
 Wintermute: https://www.vulnhub.com/entry/wintermute-1,239/
+  
+# Active Directory Attacks:
+Fundamentals of Active Directory: https://www.youtube.com/watch?v=GfqsFtmJQg0&feature=emb_logo  
+  
+## Enumerating Active Directory:
+
+Active Directory Enumeration with Powershell: https://www.exploit-db.com/docs/english/46990-active-directory-enumeration-with-powershell.pdf  
+Active Directory Exploitation Cheat Sheet: https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet#domain-enumeration  
+Powersploit: https://github.com/PowerShellMafia/PowerSploit  
+
+## Understanding Authentication protocols that Active Directory Utilizes:
+
+NTLM Authentication: https://docs.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview  
+Kerberos Authentication https://docs.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview  
+Cache and Stored Credentials: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh994565(v=ws.11)  
+Group Managed Service Accounts: https://adsecurity.org/?p=4367  
+
+## Lateral Movement in Active Directory:
+
+Paving the Way to DA: https://blog.zsec.uk/path2da-pt1  
+Pass the Hash with Machine Accounts: https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/pass-the-hash-with-machine-accounts  
+Overpass the hash (Payload All the things): https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md#overpass-the-hash-pass-the-key  
+Red Team Adventures Overpass the Hash: https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/#overpass-the-hash  
+Pass the Ticket (Silver Tickets): https://adsecurity.org/?p=2011  
+Lateral Movement with DCOM: https://www.ired.team/offensive-security/lateral-movement/t1175-distributed-component-object-model  
+ 
+## Active Directory Persistence:
+
+Cracking Kerberos TGS Tickets Using Kerberoast: https://adsecurity.org/?p=2293  
+Kerberoasting Without Mimikatz: https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/  
+Golden Tickets: https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-golden-tickets  
+Pass the Ticket (Golden Tickets): https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md#pass-the-ticket-golden-tickets  
+Understanding DCSync Attacks: https://attack.stealthbits.com/privilege-escalation-using-mimikatz-dcsync  
+
+## Tools for Active Directory Lateral Movement and Persistence:
+
+ADRecon: https://github.com/sense-of-security/ADRecon  
+Kerbrute: https://github.com/ropnop/kerbrute  
+Rubeus: https://github.com/GhostPack/Rubeus  
+Impacket: https://github.com/SecureAuthCorp/impacket  
+  
+  
+# Powershell Empire:
+
+PowerShell Empire is a post-exploitation framework that includes a pure-PowerShell Windows agent that is compatible with Python 3.x Linux/OS X agents. It is the merger of the previous PowerShell Empire and Python EmPyre projects. Recently the Kali Linux team is partnering with BC Security to sponsor PowerShell Empire. This sponsorship provides Kali users with 30-day exclusive early access to Empire and Starkiller before the updates are publicly released to the official repository.  
+
+Originally created by harmj0y, sixdub, and enigma0x3. On July 31, 2019 the project was no longer supported and the team at BC Security is now maintaining the most active fork of Empire https://github.com/BC-SECURITY/Empire.  
+
+The course does a great job explaining how to use the tool and how can you use it. Here are some resources that you can look into to get an understanding of how PowerShell Empire works: 
+  
+Installing PowerShell Empire: https://github.com/BC-SECURITY/Empire/wiki/Installation  
+Using PowerShell Empire: https://alpinesecurity.com/blog/empire-a-powershell-post-exploitation-tool/  
+
+  Other Resources:
+
+    Starkiller: https://github.com/BC-SECURITY/Starkiller
+    Empire Cli: https://github.com/BC-SECURITY/Empire-Cli
+    Malleable C2 Profiles for Empire: https://github.com/BC-SECURITY/Malleable-C2-Profiles
+
+  
 
 
 # CHECK:
