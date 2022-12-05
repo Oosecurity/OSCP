@@ -2,7 +2,7 @@
 #Linpeas
 #Winpeas
 
-Allowed TOOLS:  
+Allowed TOOLS checl:  
 BloodHound  
 SharpHound  
 PowerShell Empire  
@@ -12,8 +12,17 @@ Rubeus
 evil-winrm  
 Responder (Poisoning and Spoofing is not allowed in the labs or on the exam)  
 Crackmapexec  
-Mimikatz  
-
+Mimikatz    
+https://github.com/AonCyberLabs/Windows-Exploit-Suggester  
+https://pentestbook.six2dez.com/recon/public-info-gathering  
+https://github.com/six2dez/OSCP-Human-Guide  
+gitbook for oscp  
+https://defaultcredentials.com/oscp/best-active-directory-practice-for-oscp/  
+https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html  
+https://fareedfauzi.gitbook.io/oscp-notes/general/learning-tips 
+https://parzival.sh/posts/OSCP-Notes/  
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.offensive-security.com%2Fpwk-online%2FOSCP-Exam-Report.odt&wdOrigin=BROWSELINK  
+https://johnjhacking.com/blog/the-oscp-preperation-guide-2020/  
 
 # OSCP
 
