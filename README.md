@@ -15,8 +15,6 @@ https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 https://pentestbook.six2dez.com/recon/public-info-gathering  
 https://github.com/six2dez/OSCP-Human-Guide  
 
-# OSCP
-1.
 Scanning:
 enum.py IP  
 reconmultiple.py IP IP IP  
