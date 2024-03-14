@@ -1,4 +1,4 @@
-# ALWAYS
+# Must use tools
 #Linpeas
 #Winpeas
 
