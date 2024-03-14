@@ -2,30 +2,21 @@
 #Linpeas
 #Winpeas
 
-Allowed TOOLS checl:  
+Allowed TOOLS checked:  
 BloodHound  
 SharpHound  
-PowerShell Empire  
-Covenant   
+PowerShell Empire
 Powerview  
 Rubeus  
-evil-winrm  
-Responder (Poisoning and Spoofing is not allowed in the labs or on the exam)  
+evil-winrm 
 Crackmapexec  
 Mimikatz    
 https://github.com/AonCyberLabs/Windows-Exploit-Suggester  
 https://pentestbook.six2dez.com/recon/public-info-gathering  
 https://github.com/six2dez/OSCP-Human-Guide  
-gitbook for oscp  
-https://defaultcredentials.com/oscp/best-active-directory-practice-for-oscp/  
-https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html  
-https://fareedfauzi.gitbook.io/oscp-notes/general/learning-tips 
-https://parzival.sh/posts/OSCP-Notes/  
-https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.offensive-security.com%2Fpwk-online%2FOSCP-Exam-Report.odt&wdOrigin=BROWSELINK  
-https://johnjhacking.com/blog/the-oscp-preperation-guide-2020/  
 
 # OSCP
-
+1.
 Scanning:
 enum.py IP  
 reconmultiple.py IP IP IP  
@@ -34,17 +25,12 @@ nmap -sV -sT -p445 --script vuln <ip>
 nmap -sV -sT -p445 --script safe <ip>
 nmap -sV -sT -p445 --script "vuln and safe" <ip>
 
-Enumeraction:
-
-Exploit:
-
 File upload:
 python2 -m SimpleHTTPServer ---80 Spins up a webserver in the directory you are located on port 80.  
 python3 -m http.server --- 80 Spins up a python version 3.X web server in the directory you are located on port 80.  
 
 #Privelage Escalation:
   ## Windows Privilege Escalation Guides:
-
 Fuzzysecurity Windows Privilege Escalation Fundamentals: Shout out to fuzzysec for taking the time to write this because this is an amazing guide that will help you understand Privilege escalation techniques in Windows. http://www.fuzzysecurity.com/tutorials/16.html    
 Pwnwiki Windows Privilege Escalation Commands: http://pwnwiki.io/#!privesc/windows/index.md    
 Absolomb’s Security Blog: Windows Privilege Escalation Guide https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/    
@@ -67,19 +53,16 @@ Powerview: https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon
 Rotten Potato: https://github.com/breenmachine/RottenPotatoNG  
 Juicy Potato: https://github.com/ohpe/juicy-potato  
 
-
+## Linux Privilege Escalation Guides:
 Linux Privilege Escalation Guides: The only guide I probably ever used to help me understand privilege escalation techniques in Linux systems was from g0tmi1k post. This blog is a must that everyone should have for preparing for the OSCP in my opinion. You can find his guide here: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/  
-
 GTFOBins (I have to thank Ippsec for sharing this with me): Contains a curated list of Unix binaries that that have the ability to be exploited by an attacker to bypass local security restrictions on a Linux system. https://gtfobins.github.io/  
 
-PayloadsAllTheThings Linux Priv Esc Guide: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md  
 ## Linux Privilege Escalation Tools:  
-
 LinEnum: A great Linux privilege escalation checker that is still maintained by the guys at rebootuser.com. You can find there tool here: https://github.com/rebootuser/LinEnum  
 Linux Exploit Suggester 2: https://github.com/jondonas/linux-exploit-suggester-2  
 LinPEAS: [https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS]   
 
-One thing that I will mention is if you want to practice your Linux privilege escalation, I highly recommend you take a look at Lin.Security vulnerable box created by in.security! The box was designed to help people understand how certain applications and service that are misconfigured can be easily abused by an attacker. This box really helped me improved my privilege escalation skills and techniques on Linux systems.  
+I highly recommend you take a look at Lin.Security vulnerable box created by in security.
 
 Main Link: https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/  
 Backup: https://www.vulnhub.com/entry/linsecurity-1,244/ 
@@ -204,26 +187,6 @@ ADRecon: https://github.com/sense-of-security/ADRecon
 Kerbrute: https://github.com/ropnop/kerbrute  
 Rubeus: https://github.com/GhostPack/Rubeus  
 Impacket: https://github.com/SecureAuthCorp/impacket  
-  
-  
-# Powershell Empire:
-
-PowerShell Empire is a post-exploitation framework that includes a pure-PowerShell Windows agent that is compatible with Python 3.x Linux/OS X agents. It is the merger of the previous PowerShell Empire and Python EmPyre projects. Recently the Kali Linux team is partnering with BC Security to sponsor PowerShell Empire. This sponsorship provides Kali users with 30-day exclusive early access to Empire and Starkiller before the updates are publicly released to the official repository.  
-
-Originally created by harmj0y, sixdub, and enigma0x3. On July 31, 2019 the project was no longer supported and the team at BC Security is now maintaining the most active fork of Empire https://github.com/BC-SECURITY/Empire.  
-
-The course does a great job explaining how to use the tool and how can you use it. Here are some resources that you can look into to get an understanding of how PowerShell Empire works: 
-  
-Installing PowerShell Empire: https://github.com/BC-SECURITY/Empire/wiki/Installation  
-Using PowerShell Empire: https://alpinesecurity.com/blog/empire-a-powershell-post-exploitation-tool/  
-
-  Other Resources:
-
-    Starkiller: https://github.com/BC-SECURITY/Starkiller
-    Empire Cli: https://github.com/BC-SECURITY/Empire-Cli
-    Malleable C2 Profiles for Empire: https://github.com/BC-SECURITY/Malleable-C2-Profiles
-
-  
 
 
 # CHECK:
@@ -238,3 +201,13 @@ https://www.netsecfocus.com/oscp/2021/05/06/The_Journey_to_Try_Harder-_TJnull-s_
 https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet  
 Kerberos  
 Mimkiz
+
+PayloadsAllTheThings Linux Priv Esc Guide: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md  
+
+Other sites with good information
+https://defaultcredentials.com/oscp/best-active-directory-practice-for-oscp/  
+https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html  
+https://fareedfauzi.gitbook.io/oscp-notes/general/learning-tips 
+https://parzival.sh/posts/OSCP-Notes/  
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.offensive-security.com%2Fpwk-online%2FOSCP-Exam-Report.odt&wdOrigin=BROWSELINK  
+https://johnjhacking.com/blog/the-oscp-preperation-guide-2020/  
